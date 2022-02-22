@@ -1,0 +1,55 @@
+/* Optional theme */
+@import url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css');
+
+#outer {
+  width: 100%;
+  display: block;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+#home-top-video:before {
+  content:"";
+  position: absolute;
+  top:0;
+  right:0;
+  left:0;
+  bottom:0;
+  z-index:1;
+  /* background:linear-gradient(to right,rgba(65, 0, 255, 0.4),rgba(255, 0, 232, 0.3)); */
+  background:linear-gradient(to top,rgba(94,0,73,1),rgba(0, 0, 0, 0.3)); 
+  /* background: linear-gradient(193deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 70%, rgba(94,0,73,1) 92%); */ 
+  
+}
+
+
+#home-top-video {
+  left: 0%;
+  top: 0%;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+#home-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+#home-text-mobile {
+  position: absolute;
+  padding: 25px;
+  
+  top: 90%; 
+  /* -webkit-transform: translate(-50%, -50%); */
+  /* transform: translate(-50%, -50%); */
+  color: #fff;
+}
